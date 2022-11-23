@@ -1,0 +1,46 @@
+* {
+    caret-color: transparent;
+}
+
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    outline: 5px solid black;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blue;
+    outline: 1px black solid;
+}
+
+.mini_grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: yellow;
+    padding: 20px 0px 0px 20px;
+    outline: 5px solid black;
+}
+
+.mini_grid div {
+    height: 20px;
+    width: 20px;
+}
+
+#start_button {
+    margin-bottom: 10px;
+}
